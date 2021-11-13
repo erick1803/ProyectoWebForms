@@ -168,6 +168,7 @@ namespace ProyectoWebForms
                     }
                     DataBaseExec.ExecuteNBasicCommand(commands);
                     lblMessage.Text = "Cita Registrada";
+                    LoadGridView();
                 }
                 catch (Exception ex)
                 {
